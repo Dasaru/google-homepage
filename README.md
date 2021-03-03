@@ -1,0 +1,1 @@
+This is a simple google clone that allows users to search for different webpages.
