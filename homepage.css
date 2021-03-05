@@ -1,0 +1,16 @@
+html, body {
+    margin: 0;
+}
+
+.main-content-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    width: 700px;
+    margin: auto;
+    background-color: lightblue;
+}
