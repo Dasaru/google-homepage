@@ -18,13 +18,16 @@ textarea:focus, input:focus{
 
 #navLinks {
     display: flex;
+    align-items: center;
     list-style-type: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #navLinks li {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 10px;
 }
 
@@ -44,9 +47,47 @@ textarea:focus, input:focus{
     margin-left: auto;
 }
 
+.menu {
+    text-align: center;
+    line-height: 18px;
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.menu:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.accept-button {
+    padding: 7px 18px;
+    font-size: 14px;
+    border: none;
+    color: white;
+    background-color: #1a73e8;
+    border-radius: 5px;
+}
+
+.accept-button:hover {
+    cursor: pointer;
+    background-color: #438ae7;
+}
+
 /*
     Main Search Box
 */
+
+.search-icon {
+    position: absolute;
+    top: 128px;
+    left: 70px;
+    width: 15px;
+    opacity: 0.3;
+}
 
 .main-content-box {
     position: fixed;
@@ -80,7 +121,7 @@ textarea:focus, input:focus{
     width: 550px;
     border: 1px solid var(--input-border-color);
     border-radius: 20px;
-    padding-left: 40px;
+    padding-left: 50px;
 }
 
 .main-content-box input:hover {
