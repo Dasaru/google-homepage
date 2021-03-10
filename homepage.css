@@ -13,25 +13,22 @@ textarea:focus, input:focus{
 }
 
 /*
-    Header Navigation Bar
+**********************
+    General Styles
+**********************
 */
 
-#navLinks {
+.push {
+    margin-left: auto;
+}
+
+.navLinks {
     display: flex;
     align-items: center;
     list-style-type: none;
-    margin-top: 0px;
-    padding-top: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
-#navLinks li {
-    margin-top: 0px;
-    margin-bottom: 10px;
-}
-
-#navLinks a {
+.navLinks a {
     margin: 10px;
     text-decoration: none;
     color: black;
@@ -39,12 +36,26 @@ textarea:focus, input:focus{
     font-family: Arial;
 }
 
-#navLinks a:hover {
+.navLinks a:hover {
     text-decoration: underline;
 }
 
-.push {
-    margin-left: auto;
+/*
+*****************************
+    Header Navigation Bar
+*****************************
+*/
+
+#headLinks {
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#headLinks li {
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 .menu {
@@ -64,7 +75,7 @@ textarea:focus, input:focus{
 }
 
 .accept-button {
-    padding: 7px 18px;
+    padding: 7px 20px;
     font-size: 14px;
     border: none;
     color: white;
@@ -78,7 +89,9 @@ textarea:focus, input:focus{
 }
 
 /*
+***********************
     Main Search Box
+***********************
 */
 
 .search-icon {
@@ -142,4 +155,30 @@ textarea:focus, input:focus{
     border: 1px solid var(--button-border-color);
     cursor: pointer;
     box-shadow: 1px 1px 1px var(--button-border-color);
+}
+
+/*
+*****************************
+    Footer Navigation Bar
+*****************************
+*/
+
+#footLinks {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: #eee;
+    padding: 0px 15px;
+    margin-bottom: 0px;
+}
+
+#footLinks li {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#footLinks a {
+    color: #777;
 }
